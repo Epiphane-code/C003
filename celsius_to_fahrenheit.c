@@ -7,5 +7,5 @@ int main()                                // declaration de la fontion main
 {
     float celsius;                       // declaration de de la variable celsius
     scanf("%f", &celsius);               // lire la valeur 
-    printf("%1f°C équivaut à %1f°F", celsius, celsius_to_fahrenheit(celsius));  // afficher
+    printf("%.1f°C équivaut à %.1f°F", celsius, celsius_to_fahrenheit(celsius));  // afficher
 }
