@@ -23,7 +23,7 @@ int main()
     int i, limite, terme;
     scanf("%d", &limite);
     i=0;
-    printf("Fiboncci :");
+    printf("Fibonacci :");
     while (fibo_terme(i) < limite)
     {
         printf(" %d", fibo_terme(i));
