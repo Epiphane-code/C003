@@ -1,8 +1,8 @@
 #include <stdio.h>
-int grand (int a, int b, int c)
+int grand (int a, int b, int c)  // declaration de la fonction qui permet de le plus grand nombre parmis les trois 
 {
-    int big;
-    if (a > b)
+    int big;                    // declaration
+    if (a > b)                  // on commence a poser des conditions de comparaison pour pouvoir retourner le plus le grand
     {
         if (a > c)
         {
@@ -19,13 +19,13 @@ int grand (int a, int b, int c)
         else big = c;
     }
 
-    return big;
+    return big;                   // retour du plus grand
 }
 
-int main()
+int main()        // declaration de la fonction main
 {
-    int a, b, c, resultat;
-    scanf("%d %d %d", &a, &b, &c);
-    resultat = grand(a,b,c);
-    printf("Le plus grand nombre est : %d", resultat);
+    int a, b, c, resultat;     // declaration des variables
+    scanf("%d %d %d", &a, &b, &c); // litre les trois valeurs
+    resultat = grand(a,b,c);        // appel de la fonction declarée depuis le debut  
+    printf("Le plus grand nombre est : %d", resultat);  // afficher
 }
