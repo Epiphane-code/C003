@@ -1,7 +1,7 @@
 #include <stdio.h>
 int count_digits(unsigned long long nb)
 {
-    int count = 0, test = nb/10;
+    int count = 0, test = nb;
     while (test >= 1)
     {
         count = count + 1;
